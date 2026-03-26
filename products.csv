@@ -1,0 +1,76 @@
+,id,name,category,price,brand,rating,quantity,is_in_stock,created_at
+0,40,Art Drawing Techniques,Books,27.99,CreativeGuide,4,30,TRUE,2/23/2024
+1,38,Business Strategy Manual,Books,49.99,BizBooks,4.1,20,TRUE,2/21/2024
+2,34,Mystery at Midnight,Books,12.99,ThrillerPress,4.2,60,TRUE,2/17/2024
+3,36,History of World Wars,Books,34.99,HistoryBooks,4.3,25,TRUE,2/19/2024
+4,33,Healthy Cooking Recipes,Books,24.99,KitchenGuide,4.4,40,TRUE,2/16/2024
+5,39,Science Fiction Collection,Books,22.99,SciFiPress,4.4,55,TRUE,2/22/2024
+6,35,Photography Basics Guide,Books,29.99,VisualArts,4.5,35,TRUE,2/18/2024
+7,31,The Great Adventure Novel,Books,14.99,PageTurner,4.6,50,TRUE,2/14/2024
+8,37,Meditation and Mindfulness,Books,18.99,WellnessRead,4.7,45,TRUE,2/20/2024
+9,32,Learn Python Programming,Books,39.99,TechBooks,4.8,30,TRUE,2/15/2024
+10,19,Sneakers Canvas White,Clothing,49.99,CasualStep,4,55,TRUE,2/2/2024
+11,15,Baseball Cap Red,Clothing,24.99,CapStyle,4.1,75,TRUE,1/29/2024
+12,11,Cotton T-Shirt Basic White,Clothing,19.99,ComfortWear,4.2,95,TRUE,1/25/2024
+13,18,Dress Shirt White,Clothing,39.99,FormalFit,4.2,45,TRUE,2/1/2024
+14,14,Wool Sweater Gray,Clothing,69.99,WarmStyle,4.3,22,TRUE,1/28/2024
+15,17,Athletic Shorts Navy,Clothing,29.99,ActiveWear,4.4,60,TRUE,1/31/2024
+16,12,Denim Jeans Classic Blue,Clothing,59.99,DenimCo,4.5,40,TRUE,1/26/2024
+17,20,Hoodie Pullover Black,Clothing,54.99,StreetStyle,4.6,35,TRUE,2/3/2024
+18,13,Running Shoes Black,Clothing,89.99,SportStep,4.7,30,TRUE,1/27/2024
+19,16,Leather Jacket Brown,Clothing,149.99,LeatherCraft,4.8,15,TRUE,1/30/2024
+20,5,USB Flash Drive 32GB,Electronics,15.99,DataStore,4.1,150,TRUE,1/19/2024
+21,2,Smartphone Charging Cable,Electronics,12.99,PowerLink,4.2,200,TRUE,1/16/2024
+22,56,Smart Light Bulbs RGB,Electronics,34.99,BrightHome,4.2,200,TRUE,3/10/2024
+23,58,Drone with Camera HD,Electronics,399.99,SkyView,4.3,30,TRUE,3/12/2024
+24,4,Wireless Mouse,Electronics,24.99,ClickTech,4.3,120,TRUE,1/18/2024
+25,53,USB-C Hub 7-in-1,Electronics,49.99,ConnectPlus,4.3,120,TRUE,3/7/2024
+26,10,Webcam HD 1080p,Electronics,59.99,StreamCam,4.4,55,TRUE,1/24/2024
+27,8,Noise Canceling Earbuds,Electronics,129.99,AudioMax,4.4,89,TRUE,1/22/2024
+28,55,Action Camera 4K,Electronics,299.99,AdventureCam,4.4,45,TRUE,3/9/2024
+29,57,Fitness Tracker Advanced,Electronics,149.99,HealthWatch,4.5,75,TRUE,3/11/2024
+30,1,Wireless Bluetooth Headphones,Electronics,89.99,TechSound,4.5,45,TRUE,1/15/2024
+31,51,Gaming Mouse RGB,Electronics,79.99,ProGamer,4.5,85,TRUE,3/5/2024
+32,7,Smart Watch Fitness Tracker,Electronics,199.99,FitTech,4.6,23,TRUE,1/21/2024
+33,59,Smart Doorbell Camera,Electronics,199.99,SecureHome,4.6,55,TRUE,3/13/2024
+34,52,Mechanical Keyboard Blue,Electronics,149.99,TypeMaster,4.6,60,TRUE,3/6/2024
+35,3,Laptop Stand Adjustable,Electronics,35.99,WorkSpace,4.7,67,TRUE,1/17/2024
+36,54,Portable SSD 1TB,Electronics,129.99,DataStore,4.7,95,TRUE,3/8/2024
+37,60,Wireless Earbuds Pro,Electronics,179.99,AudioElite,4.7,110,TRUE,3/14/2024
+38,9,Gaming Keyboard RGB,Electronics,79.99,GameTech,4.8,25,TRUE,1/23/2024
+39,6,Premium Gaming Keyboard,Electronics,149.99,GamePro,4.8,0,FALSE,1/20/2024
+40,30,Picture Frame Wood,Home & Kitchen,14.99,MemoryFrame,3.9,110,TRUE,2/13/2024
+41,28,Bath Towel Cotton Blue,Home & Kitchen,16.99,SoftTouch,4,150,TRUE,2/11/2024
+42,24,Throw Pillow Soft Gray,Home & Kitchen,18.99,CozyHome,4.1,120,TRUE,2/7/2024
+43,27,Table Lamp LED White,Home & Kitchen,42.99,BrightLight,4.2,70,TRUE,2/10/2024
+44,21,Coffee Mug Ceramic Blue,Home & Kitchen,12.99,MorningCup,4.3,200,TRUE,2/4/2024
+45,29,Candle Vanilla Scented,Home & Kitchen,9.99,AromaHome,4.3,180,TRUE,2/12/2024
+46,26,Storage Containers Glass,Home & Kitchen,29.99,FreshKeep,4.4,90,TRUE,2/9/2024
+47,22,Non-stick Frying Pan,Home & Kitchen,34.99,ChefPro,4.5,80,TRUE,2/5/2024
+48,23,Cutting Board Bamboo,Home & Kitchen,22.99,EcoKitchen,4.7,65,TRUE,2/6/2024
+49,25,Kitchen Knife Set,Home & Kitchen,79.99,SharpEdge,4.8,25,TRUE,2/8/2024
+50,72,Pen Set Blue Ink,Office Supplies,14.99,SmoothWrite,4,180,TRUE,3/26/2024
+51,74,Sticky Notes Pack Colors,Office Supplies,9.99,QuickNote,4.1,200,TRUE,3/28/2024
+52,71,Notebook Ruled A4,Office Supplies,7.99,WriteWell,4.2,250,TRUE,3/25/2024
+53,75,Stapler Heavy Duty Black,Office Supplies,18.99,OfficeMax,4.3,90,TRUE,3/29/2024
+54,73,Desk Organizer Bamboo,Office Supplies,24.99,CleanDesk,4.5,70,TRUE,3/27/2024
+55,47,Running Armband Phone Holder,Sports & Outdoors,14.99,RunGear,4,120,TRUE,3/1/2024
+56,49,Fishing Rod Carbon Fiber,Sports & Outdoors,99.99,AnglePro,4.1,15,TRUE,3/3/2024
+57,46,Soccer Ball Official Size,Sports & Outdoors,29.99,KickSport,4.2,60,TRUE,2/29/2024
+58,43,Resistance Bands Set,Sports & Outdoors,19.99,StrengthTrain,4.3,95,TRUE,2/26/2024
+59,45,Camping Backpack 40L,Sports & Outdoors,79.99,TrailBlazer,4.4,35,TRUE,2/28/2024
+60,41,Yoga Mat Premium Purple,Sports & Outdoors,39.99,FlexFit,4.5,70,TRUE,2/24/2024
+61,44,Tennis Racket Lightweight,Sports & Outdoors,89.99,CourtAce,4.6,20,TRUE,2/27/2024
+62,42,Water Bottle Stainless Steel,Sports & Outdoors,24.99,HydroFlask,4.7,85,TRUE,2/25/2024
+63,48,Bike Helmet Safety Black,Sports & Outdoors,54.99,SafeRide,4.8,40,TRUE,3/2/2024
+64,50,Hiking Boots Waterproof,Sports & Outdoors,119.99,MountainStep,4.9,25,TRUE,3/4/2024
+65,69,Basketball Hoop Mini,Toys & Games,27.99,ShotMaker,4,45,TRUE,3/23/2024
+66,67,Card Game Family Fun,Toys & Games,12.99,CardPlay,4.1,100,TRUE,3/21/2024
+67,65,Remote Control Car Red,Toys & Games,49.99,SpeedToys,4.2,30,TRUE,3/19/2024
+68,63,Action Figure Superhero,Toys & Games,19.99,HeroToys,4.3,80,TRUE,3/17/2024
+69,64,Puzzle 1000 Pieces Nature,Toys & Games,24.99,PuzzleMaster,4.4,40,TRUE,3/18/2024
+70,70,Art Supplies Drawing Set,Toys & Games,32.99,CreativeKids,4.5,35,TRUE,3/24/2024
+71,61,Board Game Strategy Classic,Toys & Games,34.99,GameNight,4.6,50,TRUE,3/15/2024
+72,66,Dollhouse Wooden Pink,Toys & Games,89.99,PlayHouse,4.7,20,TRUE,3/20/2024
+73,62,Building Blocks Creative Set,Toys & Games,29.99,BuildFun,4.8,60,TRUE,3/16/2024
+74,68,Science Experiment Kit,Toys & Games,39.99,LearnLab,4.9,25,TRUE,3/22/2024
