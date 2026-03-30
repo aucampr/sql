@@ -21,7 +21,7 @@
 -- E-commerce: unique combinations of location and category
 SELECT DISTINCT location,
                category
-FROM orders;
+FROM orders_int;
 -- Result: 8 rows (2 locations × 4 categories)
 
 -- Ride-hailing: unique combinations of city and ride_type
@@ -42,7 +42,7 @@ SELECT
     COUNT(DISTINCT user_id) AS user_count,
     SUM(amount)             AS revenue,
     AVG(amount)             AS avg_order_value
-FROM orders
+FROM orders_int
 GROUP BY category;
 
 
@@ -61,7 +61,7 @@ SELECT
     COUNT(DISTINCT user_id) AS user_count,
     SUM(amount)             AS revenue,
     AVG(amount)             AS avg_order_value
-FROM orders
+FROM orders_int
 GROUP BY location, category;
 -- Result: 8 rows — one per location-category combination
 
@@ -91,7 +91,7 @@ SELECT
     COUNT(DISTINCT user_id) AS user_count,
     SUM(amount)             AS revenue,
     AVG(amount)             AS avg_order_value
-FROM orders
+FROM orders_int
 GROUP BY location, category
 ORDER BY location, revenue DESC;
 
@@ -104,7 +104,7 @@ SELECT
     COUNT(DISTINCT user_id) AS user_count,
     SUM(amount)             AS revenue,
     AVG(amount)             AS avg_order_value
-FROM orders
+FROM orders_int
 GROUP BY location, category
 ORDER BY revenue DESC, location;
 
@@ -136,20 +136,18 @@ ORDER BY city, avg_fare DESC;
 -- You can group by as many columns as needed
 -- But: each additional column multiplies the number of groups
 -- and shrinks group sizes — reducing metric reliability
--- 2 locations × 4 categories × 3 months × 2 segments × 2 payment methods = 96 groups
+-- 2 locations × 4 categories × 3 months = 24 groups
 
 SELECT
     location,
     category,
     order_month,
-    customer_segment,
-    payment_method,
     COUNT(order_id)         AS order_count,
     COUNT(DISTINCT user_id) AS user_count,
     SUM(amount)             AS revenue,
     AVG(amount)             AS avg_order_value
-FROM orders
-GROUP BY location, category, order_month, customer_segment, payment_method;
+FROM orders_int
+GROUP BY location, category, order_month;
 
 
 -- ============================================
@@ -161,7 +159,7 @@ GROUP BY location, category, order_month, customer_segment, payment_method;
 --  which is neither grouped nor aggregated"
 --
 -- SELECT location, category, COUNT(order_id) AS order_count
--- FROM orders
+-- FROM orders_int
 -- GROUP BY location;   ← missing category → ERROR
 
 -- BAD: Grouping by columns without selecting them (runs but misleading)
@@ -170,7 +168,7 @@ GROUP BY location, category, order_month, customer_segment, payment_method;
 SELECT
     location,
     COUNT(order_id) AS order_count
-FROM orders
+FROM orders_int
 GROUP BY location, category;
 -- Avoid this — always include all grouping columns in SELECT
 
@@ -181,7 +179,7 @@ SELECT
     location,
     category,
     SUM(amount) AS revenue
-FROM orders
+FROM orders_int
 GROUP BY 1, 2;   -- works, but prefer column names for clarity and safety
 
 
@@ -190,8 +188,8 @@ GROUP BY 1, 2;   -- works, but prefer column names for clarity and safety
 -- ============================================
 
 -- Small groups produce unreliable metrics
--- A high average based on 10 orders is far less trustworthy
--- than the same average based on 320 orders
+-- A high average based on 10 orders_int is far less trustworthy
+-- than the same average based on 320 orders_int
 
 -- Always include a COUNT in your summary so readers can judge reliability
 -- General guideline: aim for group sizes of 30+ for reliable summaries
@@ -203,7 +201,7 @@ SELECT
     COUNT(DISTINCT user_id) AS user_count,
     SUM(amount)             AS revenue,
     AVG(amount)             AS avg_order_value
-FROM orders
+FROM orders_int
 GROUP BY location, category
 ORDER BY location, revenue DESC;
 -- Check order_count before trusting avg_order_value for any group
