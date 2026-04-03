@@ -1,0 +1,8 @@
+id,share,quantity,sell_price,fees,avg_buy_price
+3,AMZN,10,110,5,143
+2,TSLA,20,290,8,110
+1,AAPL,50,170,10,130
+5,KO,30,60,10,62
+4,MSFT,100,255,15,245
+7,JNJ,40,170,15,156
+6,NVDA,80,450,20,200
